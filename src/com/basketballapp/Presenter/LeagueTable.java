@@ -51,6 +51,6 @@ public class LeagueTable {
         }
 
         System.out.println(stringBuilder.toString());
-        //Just making a comment here.
+        //Making a comment.
     }
 }
