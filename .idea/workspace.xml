@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbfae975-4107-47a8-8b43-328006309b00" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/basketballapp/Presenter/LeagueTable.java" afterPath="$PROJECT_DIR$/src/com/basketballapp/Presenter/LeagueTable.java" />
     </list>
     <ignored path="BasketballApp.iws" />
@@ -69,8 +68,8 @@
       <file leaf-file-name="LeagueTable.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/basketballapp/Presenter/LeagueTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+            <state relative-caret-position="444">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1072,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/basketballapp/Presenter/LeagueTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        <state relative-caret-position="444">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding />
         </state>
       </provider>
