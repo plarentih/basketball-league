@@ -75,18 +75,22 @@ public class League {
     private void generateMatches() {
         int count = 0;
         while(count < 2){
-            for (int homeTeamIndex = 0; homeTeamIndex < teams.size(); homeTeamIndex++) {
-                Team team = teams.get(homeTeamIndex);
-                for (int awayTeamIndex = 0; awayTeamIndex < teams.size(); awayTeamIndex++) {
-                    if (homeTeamIndex != awayTeamIndex) {
-                        Match match = new Match();
-                        match.setHomeTeam(team);
-                        match.setAwayTeam((teams.get(awayTeamIndex)));
-                        matches.add(match);
-                    }
+            this.generate();
+            count++;
+        }
+    }
+
+    private void generate(){
+        for (int homeTeamIndex = 0; homeTeamIndex < teams.size(); homeTeamIndex++) {
+            Team team = teams.get(homeTeamIndex);
+            for (int awayTeamIndex = 0; awayTeamIndex < teams.size(); awayTeamIndex++) {
+                if (homeTeamIndex != awayTeamIndex) {
+                    Match match = new Match();
+                    match.setHomeTeam(team);
+                    match.setAwayTeam((teams.get(awayTeamIndex)));
+                    matches.add(match);
                 }
             }
-            count++;
         }
     }
 
