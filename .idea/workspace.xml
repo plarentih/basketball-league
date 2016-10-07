@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbfae975-4107-47a8-8b43-328006309b00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BasketballApp/com/basketballapp/Presenter/LeagueTable.class" afterPath="$PROJECT_DIR$/out/production/BasketballApp/com/basketballapp/Presenter/LeagueTable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/basketballapp/Presenter/LeagueTable.java" afterPath="$PROJECT_DIR$/src/com/basketballapp/Presenter/LeagueTable.java" />
     </list>
     <ignored path="BasketballApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -517,6 +514,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475514561745</updated>
     </task>
+    <task id="LOCAL-00001" summary="Comment added to presenter class">
+      <created>1475841461994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1475841461994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -580,7 +585,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Comment added to presenter class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comment added to presenter class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
