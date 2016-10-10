@@ -7,12 +7,16 @@ public class Match {
 
     private Team homeTeam;
     private Team awayTeam;
+    private int homeScore;
+    private int awayScore;
 
     public Match() {}
 
-    public Match(Team homeTeam, Team awayTeam) {
+    public Match(Team homeTeam, Team awayTeam, int homeScore, int awayScore) {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
+        this.homeScore = homeScore;
+        this.awayScore = awayScore;
     }
 
     public Team getHomeTeam() {
@@ -33,8 +37,8 @@ public class Match {
 
     public void playMatch() {
 
-        int homeScore = (int) Math.round(Math.random() * 100);
-        int awayScore = (int) Math.round(Math.random() * 100);
+        homeScore = (int) Math.round(Math.random() * 100);
+        awayScore = (int) Math.round(Math.random() * 100);
 
         if (homeScore > awayScore) {
             this.getHomeTeam().wonTheGame();
@@ -58,6 +62,6 @@ public class Match {
     }
 
     public String toString() {
-        return getHomeTeam().getName() + " vs " + getAwayTeam().getName();
+        return getHomeTeam().getName() + " " + this.homeScore + " vs " + this.awayScore + " " + getAwayTeam().getName() ;
     }
 }
