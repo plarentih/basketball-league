@@ -90,10 +90,8 @@ public class League {
                     match.setAwayTeam((teams.get(awayTeamIndex)));
                     matches.add(match);
                 }
-                //System.out.println(teams.get(homeTeamIndex).getName()+ " vs " + teams.get(awayTeamIndex).getName());
             }
         }
-
     }
 
     private void playAllMatches() {

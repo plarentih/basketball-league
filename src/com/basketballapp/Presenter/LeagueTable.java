@@ -31,7 +31,7 @@ public class LeagueTable {
     public void startSeason() {
 
         int index = 1;
-
+        //Comment
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("| No ");
         stringBuilder.append("| Team ");
